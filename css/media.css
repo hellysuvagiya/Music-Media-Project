@@ -1,0 +1,279 @@
+@media (min-width:576px) {
+    .container{
+        max-width: 540px; 
+    }
+}
+@media (min-width:768px) {
+    .container{
+        max-width: 720px;
+
+    }
+}
+@media (min-width:992px) {
+    .container{
+        max-width: 960px;
+
+    }
+}
+@media (min-width:1200px) {
+    .container{
+        max-width: 1140px;
+
+    }
+}
+@media (min-width:1140px) {
+    .container{
+        max-width: 1320px;
+    }
+}
+
+
+
+@media (max-width:1399px) {
+    .bg-img{
+        height: 600px;
+    }
+}
+@media (max-width:1199px) {
+    .banner-innaer h1{
+        font-size: 300px;
+    }
+    .video-img img{
+        width: 100%;
+    }
+}
+@media (max-width:991px) {
+    .toggale{
+        display: block;
+    }
+    .header-content{
+        padding: 20px 30px;
+    }
+    nav ul{
+        flex-direction: column;
+    }
+    nav{
+        position: absolute;
+        top: -150px;
+        left: 0;
+        width: 150px;
+    }
+    .banner-img{
+        height: 550px;
+    }
+    .banner-innaer h1{
+        font-size: 250px;
+    }
+    .line-up h2{
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .bg-img{
+        height: 400px;
+    }
+    .singers-img{
+        flex-wrap: wrap;
+    }
+    .singers-img .singer-img-inner{
+        max-width: 50%;
+    }
+    .singers-img .singer-img-inner img{
+        width: 100%;
+        height: 100%;
+    }    
+    .singer-img-inner h3{
+        font-size: 30px;
+    }
+    .event-title h1{ 
+        font-size: 30px;
+        line-height: 35px;
+    }
+    .event-inner ul li h3{
+        font-size: 16px;
+    }
+    .live-innaer{
+        flex-wrap:wrap ;
+    }
+    .them-img h2{
+        font-size: 20px;
+        bottom: 20%;
+        line-height: 22px;
+        /* padding: 20px; */
+    }
+    .them-img a span{
+        font-size: 13px;
+    }
+    .location-img{
+        height: 587px;
+        width: 100%;
+        padding: 0 50px;
+    }
+    .ft-inner{
+        flex-direction: column;
+        padding: 0;
+    }
+    .ft-inner img{
+        width: 116px;
+        margin-left: 20px;
+    }
+    .ft-inner h3{
+        margin: 20px 20px 0 20px;
+    }
+    .ft-inner span{
+        margin: 20px 20px;
+    }
+
+}
+@media (max-width:767px) {
+    .toggale{
+        display: block;
+    }
+    .header-content{
+        padding: 10px 20px;
+    }
+    nav ul{
+        flex-direction: column;
+    }
+    nav{
+        position: absolute;
+        top: -150px;
+        left: 0;
+        width: 150px;
+    }
+    .banner-innaer h1{
+        font-size: 200px;
+    }
+    .banner-img{
+        height: 300px;
+    }
+
+    .logo img{
+
+    }
+    .line-up h2{
+        font-size: 25px;
+        line-height: 35px;
+    }
+    .bg-img{
+        height: 350px;
+    }
+    .singer-img-inner h3{
+        font-size: 30px;
+    }  
+    .singers-img .singer-img-inner{
+        max-width: 50%;
+    }
+    .singers-img .singer-img-inner img{
+        width: 100%;
+        height: 100%;
+    } 
+    .upevent-bg-img {
+        height: 100%;
+    }
+    .event-inner{
+        margin-top:0px ;
+        text-align: center;
+    }
+    .event-inner ul{
+        flex-direction:column ;
+    } 
+
+    .live{
+        flex-direction: column;
+    }
+    .live-title h3{
+        font-size: 40px;
+        margin-bottom: 50px;
+    }
+    .live-img h2{
+        font-size: 25px;
+        top: 0;
+    }
+    .live-img span{
+        visibility: hidden;
+    }
+    .them-img{
+        max-width: 100%;
+    }
+    .them-img img{
+        width: 100%;
+    }
+    .them-img h2{
+        font-size: 20px;
+        bottom:20%;
+        line-height: 22px;
+    }
+    .them-img a span{
+        font-size: 12px;
+    }
+    .last-banner-inner{
+        flex-direction: column;
+    }
+    .last-banner-img{
+        max-width: 100%;
+    }
+    .last-banner-img img{
+        width: 100%;
+    }
+
+
+}
+@media (max-width:576px) {
+    .toggale{
+        display: block;
+    }
+    .header-content{
+        padding: 5px 10px;
+    }
+    nav ul{
+        flex-direction: column;
+    }
+    nav{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 150px;
+        color: aliceblue;
+        background-color: #000;
+        visibility: hidden;
+    }
+    .banner-img{
+        height: 250px;
+    }
+    .banner-innaer h1{
+        font-size:100px;
+        padding-top: 10px;
+    }
+    .line-up h2{
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .bg-img{
+        height: 300px;
+    }
+    .singers-img{
+        flex-wrap: wrap;
+    }
+    .singers-img .singer-img-inner{
+        max-width: 100%;
+    }
+    .singers-img .singer-img-inner img{
+        width: 100%;
+    }
+    .singer-img-inner h3{
+        font-size: 22px;
+    } 
+    .upevent-bg-img {
+        height: 1100px;
+    } 
+    .event-inner ul{
+        flex-direction:column ;
+    } 
+    .live-innaer{
+        flex-direction: column;
+    }
+    .live-img h2{
+        font-size: 20px;
+        line-height: 22px;
+    }
+}
